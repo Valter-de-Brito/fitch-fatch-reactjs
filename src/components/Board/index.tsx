@@ -1,9 +1,11 @@
 import React from "react";
 
+import Square from "../Square";
+
 const Board = () => {
-return (
-<h1>Board</h1>
-);
+	const [square, setSquare] = useState([])
+
+	return <Square square={square}/>;
 }
 
 export default Board;
