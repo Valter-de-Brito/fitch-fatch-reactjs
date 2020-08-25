@@ -1,8 +1,15 @@
 import React from "react";
-import "./App.css";
+import GlobalStyle from "./styles/global";
+
+import Board from "./components/Board";
 
 const App = () => {
-  return <h1>Fitch Fatch</h1>;
+  return (
+    <>
+      <GlobalStyle />
+      <Board />
+    </>
+  );
 };
 
 export default App;
